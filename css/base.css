@@ -1,0 +1,14 @@
+.bigblock {
+    background-image: url("img/retrogamingbackground.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+a {color:white;}
+    a:active {color: yellow}
+    a:hover {background-color: #33cccc; border:#33cccc 20px;}
+    a:visited {color: white}
+    a:link {color: white;}
