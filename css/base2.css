@@ -1,0 +1,99 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.navigationtab {
+    background-color: #99d0bf;
+    padding: .5rem 1rem;
+}
+
+header {
+    display: flex;
+    padding: .5rem 15rem;
+    background-color: #FFF9F9;
+    position: sticky;
+    justify-content: flex-start;
+    border-bottom: solid 2px lightslategray;
+    margin-bottom: 2rem;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+.navigationtab {
+    width: 100%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+} */
+
+body {
+    background-color: darkslategrey;
+    align-content: center;
+}
+/*
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    align-self: stretch;
+    align-content: space-evenly;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+a {color:white;}
+a:active {color: yellow}
+a:hover {background-color: #33cccc; border:#33cccc 20px;}
+a:visited {color: white}
+a:link {color: white;}
+
+.bigblock {
+    background-image: url("img/retrogamingbackground.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner {
+     grid-column: span 4;
+ }
+
+
+.individualimage {
+    display:flex;
+    left: 0%;
+    top: 0%;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+
+.containergrid {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+
