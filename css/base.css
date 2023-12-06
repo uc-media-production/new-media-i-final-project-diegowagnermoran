@@ -20,6 +20,7 @@ body{
 .logo {
     float: left;
 }
+
 .logo a {
     display: block;
     color: white;
@@ -94,14 +95,17 @@ main {
 
 h1 {
 text-align: center;
-    font-family: Gamer, sans-serif;
+    font-family: "Gamer", sans-serif;
     font-size: 5rem;
 
 }
 
+a {
+    font-family: "Roboto", sans-serif;
+}
+
 h2 {
     font-family: "Gamer", sans-serif;
-
 }
 
 #MAINTITLE {
@@ -123,7 +127,7 @@ h2 {
 
 p {
     font-size: larger;
-    font-family: "Gamer", sans-serif;
+    font-family: sans-serif;
 }
 
 /*misc */
@@ -175,6 +179,17 @@ iframe {
     width: 14rem;
 }
 
-.directiondetails {
+#facebooklikeus {
+width: 30px
+}
+
+.directiondetails img{
     text-align: center;
 }
+
+
+.emailform {
+display: flex;
+    flex-direction: column;
+}
+
